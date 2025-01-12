@@ -48,3 +48,19 @@ function borrarVideo(id) {
         }
     });
 }
+
+const volverArribaBtn = document.getElementById('volverArriba');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 800) {
+        volverArribaBtn.style.display = 'block'; 
+    } else {
+        volverArribaBtn.style.display = 'none';
+    }
+});
+
+volverArribaBtn.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});

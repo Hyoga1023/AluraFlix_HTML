@@ -3,9 +3,7 @@
     --color-secundario: #D84040;
     --color-terceriario: #8E1616;
     --color-cuaternario: #1D1616;
-
 }
-
 .categorias {
     display: flex;
     flex-direction: column;
@@ -13,26 +11,21 @@
     padding: 2rem;
     margin-bottom: 100px;
 }
-
 .categoria {
     padding: 1.5rem;
     border-radius: 0.5rem;
     height: 50%;
     width: 100%;
 }
-
-
 .categoria h2 {
     margin-bottom: 1rem;
     font-weight: 700;
 }
-
 .videos {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
 }
-
 .video {
     flex: 1;
     padding-top: 1rem;
@@ -45,26 +38,22 @@
     align-items: center;
     gap: 2rem;
 }
-
 .video img {
     width: 100%;
     max-width: 500px;
     height: auto;
     border-radius: 0.5rem;
 }
-
 .video h3 {
     margin-top: 0.5rem;
     margin-bottom: 0.2rem;
     font-weight: 700;
     text-align: center;
 }
-
 .video p {
     margin-bottom: 0.5rem;
     text-align: center;
 }
-
 .btn-container {
     display: flex;
     justify-content: center;
