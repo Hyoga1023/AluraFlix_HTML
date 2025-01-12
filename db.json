@@ -1,0 +1,68 @@
+{
+    "videos": {
+        "frontend": [
+            {
+                "id": 1,
+                "title": "¿Cuál es la diferencia entre Front End y Back End?",
+                "description": "En este Alura Más, Jeanmarie Quijada nos explica las principales diferencias y terminologias del desarrollo web",
+                "image": "https://img.youtube.com/vi/R9uaBxgCkyA/hqdefault.jpg",
+                "url": "https://youtu.be/R9uaBxgCkyA?si=pq5hhNXsdQF95P7l"
+            },
+            {
+                "id": 2,
+                "title": "De Front End a Back End con Java",
+                "description": "En este Alura.tips nuestra instructora Genesys Rondon nos comentará un poco de como fue su experiencia dejando de trabajar con JavaScript y empezando a trabajar con Java.",
+                "image": "https://img.youtube.com/vi/3aK3Omo2RrU/hqdefault.jpg",
+                "url": "https://youtu.be/3aK3Omo2RrU?si=rI4GY5-YtAI9VQZn"
+            }
+        ],
+        "backend": [
+            {
+                "id": 3,
+                "title": "¿Por qué utilizar React?",
+                "description": "En el Alura.tips de hoy platicaremos con Harland Lohora, instructor Front End en la plataforma de Alura Latam, sobre la librería JS de React. ",
+                "image": "https://img.youtube.com/vi/MnBNPA45NW8/hqdefault.jpg",
+                "url": "https://youtu.be/MnBNPA45NW8?si=4CcSkILXf1VSztbH"
+            },
+            {
+                "id": 4,
+                "title": "¿Qué es JavaScript?",
+                "description": "JavaScript: ¿qué es y cómo se hizo este lenguaje que genera muchas discusiones y debates entre la gente del área de desarrollo? Genesys y Gabriela nos hablan exactamente de esto en este Alura Tips.",
+                "image": "https://img.youtube.com/vi/GJfOSoaXk4s/hqdefault.jpg",
+                "url": "https://youtu.be/GJfOSoaXk4s?si=NHNgx0ML0gpTJDn2"
+            }
+        ],
+        "innovación": [
+            {
+                "id": 5,
+                "title": "La magia detrás de Java #aluramás",
+                "description": "Sabemos que el ecosistema de Java es una sopa de letras con varias siglas, y la JVM (Java Virtual Machine) es una de ellas. En este video, nuestra instructora Ellen Pimentel explica su rol y características y es más simple que la magia, es decir, de lo que uno imagina.",
+                "image": "https://img.youtube.com/vi/GrEO8nZzyZM/hqdefault.jpg",
+                "url": "https://youtu.be/GrEO8nZzyZM?si=eu_t7CpgUIx95Tjx"
+            },
+            {
+                "id": 6,
+                "title": "Marketing personal para programadores #AluraMás",
+                "description": "Aprende a promover tu propia imagen aplicando Marketing Personal, crea nuevas oportunidades y destácate entre la competencia. Para quienes desean actuar en el área de programación, separamos 7 tips de como puedes hacer tu Marketing Personal para empezar a impulsar tu carrera en programación.",
+                "image": "https://img.youtube.com/vi/PEGmLW-a0h8/hqdefault.jpg",
+                "url": "https://youtu.be/PEGmLW-a0h8?si=AXNZxSihPZevO3sA"
+            }
+        ],
+        "gestión": [
+            {
+                "id": 7,
+                "title": "¿Qué es la lógica de programación y cómo aplicarla? #AluraMás",
+                "description": "Video y orientación sobre logica de Programación",
+                "image": "https://img.youtube.com/vi/3W983Q2NzRI/hqdefault.jpg",
+                "url": "https://youtu.be/3W983Q2NzRI?si=fZKuvaaPSxWM-Xdo"
+            },
+            {
+                "id": 8,
+                "title": "Battle Tech: Test de Conocimientos en Programación, Data Science y Gestión #aluratips",
+                "description": "¿Quién sabe más de programación, front-end, data science, innovación y gestión? En este divertido quiz, Barbara dos Santos y Ellen Pimentel compiten para responder preguntas de forma rápida mientras Gabi Aguiar pone a prueba sus conocimientos. ¡Descubre quién es el más ágil y cuánto sabes tú sobre estas áreas clave de la tecnología! ¿Listo para el reto?",
+                "image": "https://img.youtube.com/vi/vYoYr1nLUNg/hqdefault.jpg",
+                "url": "https://youtu.be/vYoYr1nLUNg?si=-gsAGWFxktytOyB5"
+            }
+        ]
+    }
+}
