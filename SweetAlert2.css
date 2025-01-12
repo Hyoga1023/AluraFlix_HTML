@@ -1,0 +1,25 @@
+/* Personalización de título */
+.swal-title-custom {
+    color: #FFFFFF; /* Título blanco */
+    font-weight: bold;
+}
+
+/* Personalización de contenido */
+.swal-content-custom {
+    color: #EEEEEE; /* Texto blanco */
+    font-size: 1.1rem;
+}
+
+/* Personalización del botón de confirmación */
+.swal-confirm-btn {
+    background-color: #D84040; /* Rojo para el botón */
+    color: white;
+    border-radius: 5px;
+}
+
+/* Personalización del botón de cancelación */
+.swal-cancel-btn {
+    background-color: #8E1616; /* Rojo oscuro para el botón */
+    color: white;
+    border-radius: 5px;
+}
