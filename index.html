@@ -44,15 +44,22 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/Programador_MangaPNG.png" class="d-block mx-auto img-fluid"
-                        alt="joven programando">
+                    <a href="https://www.aluracursos.com/blog/css-object-fit-trabajando-con-proporciones">
+                        <img src="./assets/Programador_MangaPNG.png" class="d-block mx-auto img-fluid"
+                            alt="joven programando">
+                    </a>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/Joven_estudiandoPNG.png" class="d-block mx-auto img-fluid"
-                        alt="joven estudiando">
+                    <a href="https://www.aluracursos.com/blog/aprendizaje-continuo">
+                        <img src="./assets/Joven_estudiandoPNG.png" class="d-block mx-auto img-fluid"
+                            alt="joven estudiando">
+                    </a>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/DesarrolladoresPNG.png" class="d-block mx-auto img-fluid" alt="desarrolladores">
+                    <a href="https://www.aluracursos.com/blog/ux-ui-conoce-las-similitudes-y-diferencias-entre-ambos">
+                        <img src="./assets/DesarrolladoresPNG.png" class="d-block mx-auto img-fluid"
+                            alt="desarrolladores">
+                    </a>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -68,7 +75,11 @@
         </div>
         <div class="texto-flotante">
             <h1>Front End</h1>
-            <p>Este texto permanece fijo mientras el carrusel cambia de imágenes.</p>
+            <p>Ser programador FrontEnd es dar vida a ideas y crear experiencias interactivas que transforman cómo las
+                personas interactúan con el mundo. Es una mezcla de arte y tecnología donde tus habilidades resuelven
+                problemas e inspiran. Cada línea de código es una oportunidad para construir un universo digital
+                funcional,
+                accesible y visualmente cautivador. ¡El mundo necesita creadores como tú!</p>
         </div>
         <section class="categorias"></section>
 
@@ -88,17 +99,20 @@
         </div>
     </footer>
 
-    <div id="modal">
+    <div id="modal" class="modal">
         <div id="modal-content">
             <h2>Editar Video</h2>
             <form class="formulario_modal">
-                <div> <label for="edit-title">Título:</label> <input class="input_modal" type="text" id="edit-title" name="edit-title">
+                <div> <label for="edit-title">Título:</label> <input class="input_modal" type="text" id="edit-title"
+                        name="edit-title">
                 </div>
-                <div> <label for="edit-description">Descripción:</label> <input class="input_modal" type="text" id="edit-description"
-                        name="edit-description"> </div>
-                <div> <label for="edit-url">URL:</label> <input class="input_modal" type="text" id="edit-url" name="edit-url"> </div>
-                <div> <button class="guardar_modal" type="button" onclick="guardarCambios()">Guardar</button> 
-                      <button class="cancelar_modal" type="button" onclick="cerrarModal()">Cancelar</button> </div>
+                <div> <label for="edit-description">Descripción:</label> <input class="input_modal" type="text"
+                        id="edit-description" name="edit-description"> </div>
+                <div> <label for="edit-url">URL:</label> <input class="input_modal" type="text" id="edit-url"
+                        name="edit-url"> </div>
+                <div> <button class="guardar_modal" type="button" onclick="guardarCambios()">Guardar</button>
+                    <button class="cancelar_modal" type="button" onclick="cerrarModal()">Cancelar</button>
+                </div>
             </form>
         </div>
     </div>
@@ -116,7 +130,7 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.min.js"></script>
-    <script src="categoriasGet.js"></script>
+    <script src="categoriasGet.js" defer></script>
 </body>
 
 </html>
