@@ -236,6 +236,10 @@
     #modal-content {
         max-width: 90%;
     }
+    .formulario{
+        margin-bottom: 170px;
+    }
+
 }
 
 @media (max-width: 480px) {
